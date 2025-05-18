@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Culinária Brasileira</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f0;
+    }
+
+    .container {
+      display: grid;
+      grid-template-areas:
+        "titulo"
+        "texto"
+        "imagem"
+        "link";
+      padding: 30px;
+      gap: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      grid-area: titulo;
+      color: #c0392b;
+      text-align: center;
+    }
+
+    p {
+      grid-area: texto;
+      font-size: 18px;
+      color: #2c3e50;
+    }
+
+    img {
+      grid-area: imagem;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    a {
+      grid-area: link;
+      text-align: center;
+      display: block;
+      font-weight: bold;
+      text-decoration: none;
+      color: #2980b9;
+    }
+
+    a:hover {
+      color: #1f618d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Culinária Brasileira</h1>
+    <p>A culinária do Brasil é rica em sabores, cores e aromas. Com influências indígenas, africanas e europeias, cada região do país possui pratos típicos únicos. Feijoada, acarajé, moqueca e pão de queijo são apenas alguns exemplos dessa diversidade gastronômica.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Feijoada.jpg" alt="Prato de feijoada">
+    <a href="https://pt.wikipedia.org/wiki/Culin%C3%A1ria_do_Brasil" target="_blank">Saiba mais sobre a culinária brasileira</a>
+  </div>
+</body>
+</html>
